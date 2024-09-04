@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 442
+  ClientWidth = 628
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lbl1: TLabel
+    Left = 96
+    Top = 96
+    Width = 80
+    Height = 15
+    Caption = 'Valor da venda:'
+  end
+  object lbl2: TLabel
+    Left = 96
+    Top = 144
+    Width = 77
+    Height = 15
+    Caption = 'Tipo da venda:'
+  end
+  object y: TLabel
+    Left = 26
+    Top = 192
+    Width = 147
+    Height = 15
+    Caption = 'Porcentagem (desc/acresc):'
+  end
+  object lbl4: TLabel
+    Left = 94
+    Top = 248
+    Width = 79
+    Height = 15
+    Caption = 'Valor final (R$):'
+  end
+  object lblfinal: TLabel
+    Left = 208
+    Top = 248
+    Width = 26
+    Height = 15
+    Caption = 'valor'
+  end
+  object edtvenda: TEdit
+    Left = 208
+    Top = 93
+    Width = 121
+    Height = 23
+    TabOrder = 0
+  end
+  object edtporc: TEdit
+    Left = 208
+    Top = 189
+    Width = 121
+    Height = 23
+    TabOrder = 1
+  end
+  object btncalcular: TButton
+    Left = 376
+    Top = 188
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 2
+    OnClick = btncalcularClick
+  end
+  object CheckBox1: TCheckBox
+    Left = 208
+    Top = 144
+    Width = 97
+    Height = 17
+    Caption = #192' Vista'
+    TabOrder = 3
+    OnClick = CheckBox1Click
+  end
+  object CheckBox2: TCheckBox
+    Left = 328
+    Top = 144
+    Width = 97
+    Height = 17
+    Caption = #192' Prazo'
+    TabOrder = 4
+    OnClick = CheckBox2Click
+  end
+end

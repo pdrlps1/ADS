@@ -1,0 +1,11 @@
+{
+    
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "Roboto Mono",    
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

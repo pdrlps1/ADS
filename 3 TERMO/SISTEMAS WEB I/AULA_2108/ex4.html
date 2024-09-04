@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação Suporte</title>
+</head>
+<body>
+    <h1>Solicitação</h1>
+    <form>
+    <fieldset>
+        <legend>Login</legend>
+        <label for="usuario">Usuário:</label><br>
+        <input type="text" name="usuario" id="usuario" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Solicitação</legend>
+        <label for="desc">Descrição:</label><br>
+        <textarea name="desc" id="desc" rows="5" cols="40">Digite aqui...</textarea><br><br>
+
+        <label >Urgência</label><br>
+        <input type="radio" id="alta" name="urg" value="alta">
+        <label for="alta">Alta</label><br>
+        <input type="radio" id="media" name="urg" value="media">
+        <label for="media">Média</label><br>
+        <input type="radio" id="baixa" name="urg" value="baixa">
+        <label for="baixa">Baixa</label><br><br>
+
+        <label for="file">Imagem:</label><br>
+        <input type="file" id="file" name="file">
+
+    </fieldset>
+    </form>    
+</body>
+</html>

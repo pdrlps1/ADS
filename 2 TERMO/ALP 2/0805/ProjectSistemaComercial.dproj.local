@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/03/27 21:03:42.000.337,=C:\Users\pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/08 19:29:54.000.050,=C:\Users\pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/08 21:28:01.000.916,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit1.principal.pas=C:\Users\pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/05/08 21:28:01.000.916,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit1.principal.dfm=C:\Users\pedro\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/05/08 21:28:14.000.789,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\ProjectSistemaComercial.dproj=C:\Users\pedro\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/05/08 21:28:20.000.162,=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit2.pas</Transaction>
+    <Transaction>2024/05/08 21:30:29.000.823,=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit1.pas</Transaction>
+    <Transaction>2024/05/08 21:40:04.000.648,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\cadcliente.pas=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit2.pas</Transaction>
+    <Transaction>2024/05/08 21:40:04.000.648,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\cadcliente.dfm=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit2.dfm</Transaction>
+    <Transaction>2024/05/08 21:40:36.000.667,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unitdmprincipal.dfm=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit1.dfm</Transaction>
+    <Transaction>2024/05/08 21:40:36.000.667,C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unitdmprincipal.pas=C:\Users\pedro\OneDrive\ADS\ALP 2\0805\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

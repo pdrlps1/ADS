@@ -1,0 +1,27 @@
+ANOTAÇÕES
+
+VOID - função sem parâmetro e sem retorno
+
+função
+    define primeiro ESCOPO da função (exemplo VOID - vazio)
+    depois entra na função
+
+programa MAIN - mais fluido possível (programa principal)
+    chama a função
+    executa toda a função
+
+VARIÁVEL LOCAL - dentro do escopo, definida de acordo com a situação
+VARIÁVEL GLOBAL - serve pro código completo
+
+quando declara variável fora da função define sempre uma pro programa inteiro
+    imprime sempre o último valor definido à ela
+    não declara ela dentro das funções (apenas FORA do main, void, etc)
+
+
+PASSAGEM DE PARÂMETRO 
+    Valor 
+        Envia uma cópia do valor da variável pra função
+        Original NÃO PODE SER ALTERADO
+    Referência
+        Envia a posição de memória da variável
+        Original PODE SER ALTERADO

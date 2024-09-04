@@ -1,0 +1,318 @@
+1)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Título do Blog</h1>
+    </header>
+    
+    <aside>
+        <a href="url">Seção 1</a><br><br>
+        <a href="url">Seção 2</a><br><br>
+        <a href="url">Seção 3</a>
+    </aside>
+
+    <main>
+        <h2>Título</h2>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+    </main>
+
+    <footer>
+        <h3>Contatos</h3>
+        <p>Contato 1 - aaaaaa</p>
+        <p>Contato 2 - bbbbbb</p>
+    </footer>
+</body>
+</html>
+
+
+
+2)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h2>Contato</h2>
+    <form>
+        <fieldset>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label for="email">E Mail:</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" placeholder="Insira aqui sua mensagem..." rows="6" cols="30"></textarea>            
+
+        </fieldset>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+    </form>
+</body>
+</html>
+
+
+
+3)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>25</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>João Silva</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Carla Souza</td>
+                <td>28</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+4)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td>R$1,00</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>R$2,00</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td>R$3,00</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>60</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+
+
+5)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVs</title>
+</head>
+<body>
+    
+<div>
+    <header>
+        <h1>Minha Página Web</h1>
+    </header>
+</div>
+
+<main>
+    <div>
+        <h2>Seção lateral</h2>
+        <p>Tema 1</p>
+        <p>Tema 2</p>
+    </div>
+
+    <div>
+        <h2>Seção principal</h2>
+        <p>Tema principal do site</p>
+    </div>
+</main>
+
+<div>
+    <footer>
+        <h4>Criado por Pedro Lopes</h4>
+    </footer>
+</div>
+
+</body>
+</html>
+
+
+
+6)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório</title>
+</head>
+<body>
+    
+    <div>
+        <header>
+            <h1>Relatório de Vendas</h1>
+        </header>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Filtros</legend>
+
+                <label for="dt_inicio">Data inicial:</label><br>
+                <input type="date" name="dt_inicio" id="dt_inicio"><br>
+                <label for="dt_fim">Data final:</label><br>
+                <input type="date" name="dt_fim" id="dt_fim"><br><br>
+                <input type="button" name="aplicar" id="aplicar" value="Aplicar">
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade Vendida</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto 1</td>
+                    <td>10</td>
+                    <td>R$25</td>
+                    <td>R$250</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>10</td>
+                    <td>R$15</td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>5</td>
+                    <td>R$10</td>
+                    <td>R$50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Relatório gerado em 28/08/2024</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
+
+7) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionários</title>
+</head>
+<body>
+    
+    <div>
+        <header>
+            <h1>Lista de funcionários</h1>
+        </header>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Salário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ana Souza</td>
+                    <td>Analista de Sistemas</td>
+                    <td>R$6.000,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>João Silva</td>
+                    <td>Desenvolvedor</td>
+                    <td>R$7.500,00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maria Oliveira</td>
+                    <td>Gerente de Projetos</td>
+                    <td>R$10.000,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total de funcionários</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div>
+        <footer>2024 Empreza XYZ</footer>
+    </div>
+
+</body>
+</html>
+
+
+

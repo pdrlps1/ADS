@@ -1,0 +1,193 @@
+1) 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="nome">Nome completo: </label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" recquired><br><br>
+
+            <label>Gênero: </label><br>
+            <input type="radio" id="masc" name="genero" value="Masculino">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" id="fem" name="genero" value="Feminino">
+            <label for="fem">Feminino</label><br>
+            <input type="radio" id="nd" name="genero" value="Prefiro não declarar">
+            <label for="nd">Prefiro não declarar</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+        
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg" placeholder="Escreva sua mensagem aqui..." rows="5" cols="50"></textarea><br><br>
+
+            <label for="opcao">Escolha uma opção: </label>
+            <select name="opcao" id="opcao">
+                <option value="Selecione...">Selecione...</option>
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Confirmação</legend>
+
+            <input type="checkbox" id="confirma" name="confirma">
+            <label for="confirma">Eu aceito os termos e condições</label><br>
+        </fieldset><br>
+        <input type="submit" id="envia" name="envia" value="Enviar">
+        <input type="reset" id="redef" name="redef" value="Redefinir">
+    </form>
+</body>
+</html>
+
+2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+</head>
+<body>
+    
+    <h1>Cadastro de Evento</h1>
+    
+    <fieldset>
+
+        <label for="nome">Nome do Evento:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="data">Data do Evento:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="hora">Hora do Evento:</label><br>
+        <input type="time" id="hora" name="hora"><br><br>
+        
+        <label for="desc">Descrição do Evento:</label><br>
+        <textarea name="desc" id="desc" placeholder="Digite aqui..." rows="6" cols="30"></textarea><br><br>
+        
+        <label for="modo">Formato:</label><br>
+        <input type="radio" id="online" name="online">
+        <label for="online">Online</label><br>
+        <input type="radio" id="presen" name="presen">
+        <label for="presen">Presencial</label><br><br>
+
+        <label for="qtd_ing">Quantidade de ingressos: </label><br>
+        <input type="number" id="qtd_ing" name="qtd_ing">
+
+    </fieldset>
+    <input type="submit" value="Confirmar">
+    <input type="reset" value="Resetar">
+
+
+</body>
+</html>
+
+
+3)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <fieldset>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" name="senha" id="senha"><br>
+        <input type="checkbox" name="lembrar" id="lembrar">
+        <label for="lembrar">Lembrar-me</label><br>
+        <input type="button" name="esqueci" id="esqueci" value="Esqueci minha senha">
+    </fieldset>
+    
+</body>
+</html>
+
+4)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação Suporte</title>
+</head>
+<body>
+    <h1>Solicitação</h1>
+    <fieldset>
+        <label for="usuario">Usuário:</label><br>
+        <input type="text" name="usuario" id="usuario" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+        
+        <label for="desc">Descrição:</label><br>
+        <textarea name="desc" id="desc" rows="5" cols="40">Digite aqui...</textarea><br><br>
+
+        <label for="urg">Urgência</label><br>
+        <input type="radio" id="alta" name="alta">
+        <label for="alta">Alta</label><br>
+        <input type="radio" id="media" name="media">
+        <label for="media">Média</label><br>
+        <input type="radio" id="baixa" name="baixa">
+        <label for="baixa">Baixa</label><br><br>
+
+        <label for="file">Imagem:</label><br>
+        <input type="file" id="file" name="file">
+
+    </fieldset>
+    
+</body>
+</html>
+
+5)
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificações</title>
+</head>
+<body>
+    <h1>Configurar notificações</h1>
+    <form>
+        <fieldset>
+            <legend>Preferências de Notificação</legend>
+            <input type="checkbox" name="email" id="email" value="email">
+            <label for="email">Receber notificações por email?</label><br><br>
+
+            <input type="checkbox" name="sms" id="sms" value="sms">
+            <label for="sms">Receber notificações por SMS?</label><br><br>
+
+            
+            <h3>Frequência de recebimento</h3>
+
+            <input type="radio" name="freq" id="diaria" value="diaria">
+            <label for="diaria">Diária</label><br>
+
+            <input type="radio" name="freq" id="semana" value="semana">
+            <label for="semana">Semanal</label><br>
+
+            <input type="radio" name="freq" id="mes" value="mes">
+            <label for="mes">Mensal</label><br>
+        </fieldset>
+    </form>
+</body>
+</html>

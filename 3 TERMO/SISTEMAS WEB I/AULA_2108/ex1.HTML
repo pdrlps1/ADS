@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="nome">Nome completo: </label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" recquired><br><br>
+
+            <label>Gênero: </label><br>
+            <input type="radio" id="masc" name="genero" value="Masculino">
+            <label for="masc">Masculino</label><br>
+            <input type="radio" id="fem" name="genero" value="Feminino">
+            <label for="fem">Feminino</label><br>
+            <input type="radio" id="nd" name="genero" value="Prefiro não declarar">
+            <label for="nd">Prefiro não declarar</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+        
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg" placeholder="Escreva sua mensagem aqui..." rows="5" cols="50"></textarea><br><br>
+
+            <label for="opcao">Escolha uma opção: </label>
+            <select name="opcao" id="opcao">
+                <option value="Selecione...">Selecione...</option>
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Confirmação</legend>
+
+            <input type="checkbox" id="confirma" name="confirma">
+            <label for="confirma">Eu aceito os termos e condições</label><br>
+        </fieldset><br>
+        <input type="submit" id="envia" name="envia" value="Enviar">
+        <input type="reset" id="redef" name="redef" value="Redefinir">
+    </form>
+</body>
+</html>
