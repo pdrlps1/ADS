@@ -10,14 +10,15 @@ package aula03;
  */
 public class Corretora {
     
-    int numero;
-    String agencia;
-    String titular;
-    double saldo;
+    public int numero;
+    public String agencia;
+    public String titular;
+    public double saldo;
     
     public void depositar(double valor){
         this.saldo = this.saldo + valor;
         System.out.println("Deposito realizado. Saldo atual: " + this.saldo);
+        this.imprimir();
         }
     public void sacar (double valor){
         if (valor > this.saldo) {
@@ -26,9 +27,11 @@ public class Corretora {
             this.saldo = this.saldo - valor;
             System.out.println("Saque efetuado. Saldo atual: " + this.saldo);
         }
+        this.imprimir();
     }
     public void investir(){
         this.saldo = this.saldo*1.05;
+        this.imprimir();
     }
     public void imprimir(){
         System.out.println("-----------------------");

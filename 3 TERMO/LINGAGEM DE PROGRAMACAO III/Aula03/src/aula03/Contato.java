@@ -11,10 +11,10 @@ package aula03;
  */
 public class Contato {
     
-    String nome;
-    String telefone;
-    String email;
-    String endereco;
+    public String nome;
+    public String telefone;
+    public String email;
+    public String endereco;
     }
 
 
