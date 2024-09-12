@@ -1,0 +1,921 @@
+1)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+
+    width: 300px;
+
+    margin: 0 auto;
+
+    }
+
+        label {
+
+    display: block;
+
+    margin-top: 10px;
+
+    }
+
+        input, textarea, button {
+
+    width: 100%;
+
+    margin-top: 5px;
+
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome"><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <textarea name="msg" id="msg" placeholder="Digite aqui sua mensagem..."></textarea>
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+2)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+
+        width: 100%;
+
+        border-collapse: collapse;
+
+        }
+
+        th, td {
+
+        border: 1px solid #ddd;
+
+        padding: 8px;
+
+        }
+
+        th {
+
+        background-color: #f4f4f4;
+
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item 1</th>
+                    <th>Item 2</th>
+                    <th>Item 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dado 1</td>
+                    <td>Dado 2</td>
+                    <td>Dado 3</td>
+                </tr>
+                <tr>
+                    <td>Dado 4</td>
+                    <td>Dado 5</td>
+                    <td>Dado 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
+3)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+
+        border: 2px solid #333;
+
+        padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <img src="https://reges.com.br/ribeiraopreto/wp-content/uploads/2016/11/logo-reges.svg" alt="img">
+</body>
+</html>
+
+
+
+4)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"] {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-top: 5px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+        }
+
+        input[type="submit"] {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            padding: 10px;
+
+            border: none;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" name="input1" id="input1">
+        <input type="submit" name="submit1" id="submit1">
+    </form>
+
+</body>
+</html>
+
+
+
+5) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    fieldset {
+
+        border: 2px solid #ccc;
+
+        padding: 10px;
+
+        margin-bottom: 10px;
+
+    }
+
+    legend {
+
+        font-weight: bold;
+
+    }
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Título do Fieldset</legend>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+6) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .left {
+
+        text-align: left;
+
+        }
+
+        .center {
+
+        text-align: center;
+
+        }
+
+        .right {
+
+        text-align: right;
+
+        }
+    </style>
+</head>
+<body>
+    <p class=".left">Parágrafo 1</p>
+    <p class=".center">Parágrafo 2</p>
+    <p class=".right">Parágrafo 3</p>
+</body>
+</html>
+
+
+
+7)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+
+        background-color: #008CBA; /* Azul */
+
+        color: white;
+
+        padding: 10px 20px;
+
+        border: none;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        }
+
+        button:hover {
+
+        background-color: #005f73; /* Azul mais escuro */
+
+        }
+    </style>
+</head>
+<body>
+    <button name="botao" id="botao">Botão</button>
+</body>
+</html>
+
+8)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .background-image {
+
+    background-image: url('https://plus.unsplash.com/premium_photo-1675088136456-4eb83fc5b827?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+
+    background-position: center;
+
+    width: 100%;
+
+    height: 300px;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+</body>
+</html>
+
+
+
+Com base nos exercícios da aula passada, copie os arquivos html em outra pasta, e adicione os seguintes trechos css em cada um:
+
+
+
+1)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <style>
+        body {
+
+        font-family: Arial, sans-serif;
+
+        margin: 0;
+
+        padding: 0;
+
+        }
+
+
+
+        header {
+
+        background-color: #333;
+
+        color: white;
+
+        text-align: center;
+
+        padding: 1em;
+
+        }
+
+
+
+        .container {
+
+        display: flex;
+
+        }
+
+
+
+        aside {
+
+        width: 25%;
+
+        background-color: #f4f4f4;
+
+        padding: 10px;
+
+        }
+
+
+
+        main {
+
+        width: 75%;
+
+        padding: 10px;
+
+        }
+
+
+
+        footer {
+
+        background-color: #333;
+
+        color: white;
+
+        text-align: center;
+
+        padding: 1em;
+
+        position: fixed;
+
+        width: 100%;
+
+        bottom: 0;
+
+        }
+
+
+
+        ul {
+
+        list-style-type: none;
+
+        padding: 0;
+
+        }
+
+
+
+        ul li {
+
+        margin: 10px 0;
+
+        }
+
+
+
+        a {
+
+        text-decoration: none;
+
+        color: #333;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Título do Blog</h1>
+        </header>
+    </div>
+    
+    <div>
+        <aside>
+            <a href="url">Seção 1</a><br><br>
+            <a href="url">Seção 2</a><br><br>
+            <a href="url">Seção 3</a>
+        </aside>
+    </div>
+    
+    <div>
+        <main>
+            <h2>Título</h2>
+            <p>Parágrafo 1</p>
+            <p>Parágrafo 2</p>
+        </main>
+    </div>
+    
+    <div>
+        <footer>
+            <h3>Contatos</h3>
+            <p>Contato 1 - aaaaaa</p>
+            <p>Contato 2 - bbbbbb</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
+2)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <style>
+        form {
+
+width: 300px;
+
+margin: 0 auto;
+
+background-color: #f4f4f4;
+
+padding: 20px;
+
+border-radius: 8px;
+
+}
+
+
+
+label {
+
+display: block;
+
+margin-top: 10px;
+
+}
+
+
+
+input, textarea, button {
+
+width: 100%;
+
+padding: 10px;
+
+margin-top: 5px;
+
+border: 1px solid #ccc;
+
+border-radius: 4px;
+
+}
+
+
+
+button {
+
+background-color: #4CAF50;
+
+color: white;
+
+border: none;
+
+cursor: pointer;
+
+}
+    </style>
+</head>
+<body>
+    <h2>Contato</h2>
+    <form>
+        <fieldset>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br><br>
+            <label for="email">E Mail:</label><br>
+            <input type="email" name="email" id="email"><br><br>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="msg" placeholder="Insira aqui sua mensagem..." rows="6" cols="30"></textarea>            
+
+        </fieldset>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+    </form>
+</body>
+</html>
+
+3)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+
+    <style>
+        table {
+
+width: 100%;
+
+border-collapse: collapse;
+
+margin: 20px 0;
+
+}
+
+
+
+th, td {
+
+border: 1px solid #ddd;
+
+padding: 8px;
+
+text-align: left;
+
+}
+
+
+
+th {
+
+background-color: #f4f4f4;
+
+}
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>25</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>João Silva</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Carla Souza</td>
+                <td>28</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+4)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+
+    <style>
+        table {
+
+width: 100%;
+
+border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+border: 1px solid #ddd;
+
+padding: 8px;
+
+}
+
+
+
+tfoot td {
+
+font-weight: bold;
+
+}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td>R$1,00</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>R$2,00</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td>R$3,00</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>60</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+
+5)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVs</title>
+
+    <style>
+        header {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 1em;
+
+}
+
+aside {
+
+width: 30%;
+
+background-color: #f4f4f4;
+
+padding: 10px;
+
+}
+
+main {
+
+width: 70%;
+
+padding: 10px;
+
+}
+
+
+
+footer {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 1em;
+
+position: fixed;
+
+width: 100%;
+
+bottom: 0;
+
+}
+    </style>
+</head>
+<body>
+    
+<div>
+    <header>
+        <h1>Minha Página Web</h1>
+    </header>
+</div>
+
+<main>
+    <div>
+        <h2>Seção lateral</h2>
+        <p>Tema 1</p>
+        <p>Tema 2</p>
+    </div>
+
+    <div>
+        <h2>Seção principal</h2>
+        <p>Tema principal do site</p>
+    </div>
+</main>
+
+<div>
+    <footer>
+        <h4>Criado por Pedro Lopes</h4>
+    </footer>
+</div>
+
+</body>
+</html>
+
+6)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório</title>
+
+    <style>
+        header {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 1em;
+
+}
+
+
+
+
+
+table {
+
+width: 100%;
+
+border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+border: 1px solid #ddd;
+
+padding: 8px;
+
+}
+
+
+
+tfoot td {
+
+font-weight: bold;
+
+}
+
+
+
+footer {
+
+background-color: #333;
+
+color: white;
+
+text-align: center;
+
+padding: 1em;
+
+position: fixed;
+
+width: 100%;
+
+bottom: 0;
+
+}
+    </style>
+</head>
+<body>
+    
+    <div>
+        <header>
+            <h1>Relatório de Vendas</h1>
+        </header>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Filtros</legend>
+
+                <label for="dt_inicio">Data inicial:</label><br>
+                <input type="date" name="dt_inicio" id="dt_inicio"><br>
+                <label for="dt_fim">Data final:</label><br>
+                <input type="date" name="dt_fim" id="dt_fim"><br><br>
+                <input type="button" name="aplicar" id="aplicar" value="Aplicar">
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade Vendida</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto 1</td>
+                    <td>10</td>
+                    <td>R$25</td>
+                    <td>R$250</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>10</td>
+                    <td>R$15</td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>5</td>
+                    <td>R$10</td>
+                    <td>R$50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Relatório gerado em 28/08/2024</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+</html>

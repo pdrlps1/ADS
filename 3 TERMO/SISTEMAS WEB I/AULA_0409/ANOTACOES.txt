@@ -1,0 +1,746 @@
+1)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+
+    width: 300px;
+
+    margin: 0 auto;
+
+    }
+
+        label {
+
+    display: block;
+
+    margin-top: 10px;
+
+    }
+
+        input, textarea, button {
+
+    width: 100%;
+
+    margin-top: 5px;
+
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome"><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"><br><br>
+
+            <textarea name="msg" id="msg" placeholder="Digite aqui sua mensagem..."></textarea>
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+2)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+
+        width: 100%;
+
+        border-collapse: collapse;
+
+        }
+
+        th, td {
+
+        border: 1px solid #ddd;
+
+        padding: 8px;
+
+        }
+
+        th {
+
+        background-color: #f4f4f4;
+
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item 1</th>
+                    <th>Item 2</th>
+                    <th>Item 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dado 1</td>
+                    <td>Dado 2</td>
+                    <td>Dado 3</td>
+                </tr>
+                <tr>
+                    <td>Dado 4</td>
+                    <td>Dado 5</td>
+                    <td>Dado 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
+
+
+
+3)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+
+        border: 2px solid #333;
+
+        padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <img src="https://reges.com.br/ribeiraopreto/wp-content/uploads/2016/11/logo-reges.svg" alt="img">
+</body>
+</html>
+
+
+
+4)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"] {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-top: 5px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+        }
+
+        input[type="submit"] {
+
+            background-color: #4CAF50;
+
+            color: white;
+
+            padding: 10px;
+
+            border: none;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" name="input1" id="input1">
+        <input type="submit" name="submit1" id="submit1">
+    </form>
+
+</body>
+</html>
+
+
+
+5) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    fieldset {
+
+        border: 2px solid #ccc;
+
+        padding: 10px;
+
+        margin-bottom: 10px;
+
+    }
+
+    legend {
+
+        font-weight: bold;
+
+    }
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Título do Fieldset</legend>
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+6) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .left {
+
+        text-align: left;
+
+        }
+
+        .center {
+
+        text-align: center;
+
+        }
+
+        .right {
+
+        text-align: right;
+
+        }
+    </style>
+</head>
+<body>
+    <p class=".left">Parágrafo 1</p>
+    <p class=".center">Parágrafo 2</p>
+    <p class=".right">Parágrafo 3</p>
+</body>
+</html>
+
+
+
+7)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        button {
+
+        background-color: #008CBA; /* Azul */
+
+        color: white;
+
+        padding: 10px 20px;
+
+        border: none;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        }
+
+        button:hover {
+
+        background-color: #005f73; /* Azul mais escuro */
+
+        }
+    </style>
+</head>
+<body>
+    <button name="botao" id="botao">Botão</button>
+</body>
+</html>
+
+8)<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .background-image {
+
+    background-image: url('https://plus.unsplash.com/premium_photo-1675088136456-4eb83fc5b827?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+
+    background-position: center;
+
+    width: 100%;
+
+    height: 300px;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+</body>
+</html>
+
+
+
+Com base nos exercícios da aula passada, copie os arquivos html em outra pasta, e adicione os seguintes trechos css em cada um:
+
+
+
+1)Crie uma página HTML que simule o layout de um blog com as seguintes divisões. 
+
+a)Um cabeçalho (<header>) que contenha o título do blog.
+
+b)Uma barra lateral (<aside>) à esquerda com links para outras seções do site.
+
+c)A área principal (<main>) onde será exibido o conteúdo da postagem, que deve conter um título e dois parágrafos.
+
+d)Um rodapé (<footer>) com as informações de contato do blog.
+
+*Utilize divs
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+}
+
+
+
+.container {
+
+    display: flex;
+
+}
+
+
+
+aside {
+
+    width: 25%;
+
+    background-color: #f4f4f4;
+
+    padding: 10px;
+
+}
+
+
+
+main {
+
+    width: 75%;
+
+    padding: 10px;
+
+}
+
+
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+    position: fixed;
+
+    width: 100%;
+
+    bottom: 0;
+
+}
+
+
+
+ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+
+
+ul li {
+
+    margin: 10px 0;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+    color: #333;
+
+}
+
+2)Crie uma página HTML com os seguintes elementos:
+
+a)Um título de nível 2 com o texto "Contato".
+
+b)Um formulário com os campos:
+
+c)Nome (campo de texto)
+
+d)Email (campo de email)
+
+e)Mensagem (área de texto)
+
+f)Um botão de envio.
+
+form {
+
+    width: 300px;
+
+    margin: 0 auto;
+
+    background-color: #f4f4f4;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+}
+
+
+
+label {
+
+    display: block;
+
+    margin-top: 10px;
+
+}
+
+
+
+input, textarea, button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+}
+
+
+
+button {
+
+    background-color: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+3)Crie uma HTML com uma tabela que organize as seguinte informações
+
+
+
+Nome Completo Idade Cidade
+
+Maria Oliveira 25     São Paulo
+
+João Silva     30     Rio de Janeiro
+
+Carla Souza     28      Belo Horizonte
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+
+}
+
+
+
+th, td {
+
+    border: 1px solid #ddd;
+
+    padding: 8px;
+
+    text-align: left;
+
+}
+
+
+
+th {
+
+    background-color: #f4f4f4;
+
+}
+
+
+
+4)Crie uma tabela HTML para listar produtos de uma loja online. A tabela deve conter:
+
+a)Um cabeçalho (<thead>) com as colunas: "Produto", "Preço", "Quantidade".
+
+b)O corpo da tabela (<tbody>) deve listar 3 produtos com suas respectivas informações.
+
+c)Um rodapé (<tfoot>) que exiba o total de itens e a quantidade total de produtos.
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+    border: 1px solid #ddd;
+
+    padding: 8px;
+
+}
+
+
+
+tfoot td {
+
+    font-weight: bold;
+
+}
+
+
+
+5)Crie uma página HTML que organize o conteúdo usando várias divisões (<div>). A página deve conter:
+
+a)Um cabeçalho (<header>) dentro de uma <div>, com o título "Minha Página Web".
+
+b)Um conteúdo principal (<main>) dividido em duas colunas:
+
+c)A primeira coluna, à esquerda, deve ser uma <div> com o título "Seção Lateral" e dois parágrafos descrevendo qualquer tema.
+
+d)A segunda coluna, à direita, deve ser uma <div> com o título "Seção Principal" e um parágrafo descrevendo o conteúdo principal da página.
+
+e)Um rodapé (<footer>) dentro de uma <div> com o texto "Criado por [Seu Nome]".
+
+
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+}
+
+aside {
+
+    width: 30%;
+
+    background-color: #f4f4f4;
+
+    padding: 10px;
+
+}
+
+main {
+
+    width: 70%;
+
+    padding: 10px;
+
+}
+
+
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+    position: fixed;
+
+    width: 100%;
+
+    bottom: 0;
+
+}
+
+
+
+
+
+6)Crie uma página HTML que exiba um relatório de vendas. A página deve ser organizada da seguinte maneira:
+
+a)Um cabeçalho (<header>) dentro de uma <div>, com o título "Relatório de Vendas".
+
+b)Uma seção de filtros dentro de uma <div>, onde os seguintes elementos de filtro devem ser exibidos:
+
+c)Período (campo de texto para data inicial e final)
+
+d)Um botão para aplicar os filtros
+
+e)Uma tabela de vendas dentro de uma <div>, contendo:
+
+f)Um cabeçalho da tabela (<thead>) com as colunas: "Produto", "Quantidade Vendida", "Preço Unitário", "Total".
+
+g)Um corpo da tabela (<tbody>) com 3 linhas de produtos fictícios.
+
+h)Um rodapé da tabela (<tfoot>) que exiba o valor total da soma das vendas.
+
+i)Um rodapé da página (<footer>) dentro de uma <div>, com o texto "Relatório gerado em [data de hoje]".
+
+
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+}
+
+
+
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+
+th, td {
+
+    border: 1px solid #ddd;
+
+    padding: 8px;
+
+}
+
+
+
+tfoot td {
+
+    font-weight: bold;
+
+}
+
+
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1em;
+
+    position: fixed;
+
+    width: 100%;
+
+    bottom: 0;
+
+}
