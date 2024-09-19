@@ -10,14 +10,38 @@ package com.mycompany.aula_1209;
  */
 
 public class ArrayManipulator {
-        public void encontrarMenorValor(int[] numeros){
-            
-        int maior = numeros[0];
-        
-        for(int numero : numeros){
-            if (numero > maior) {
-                maior = numero;
+    public int encontrarMaiorValor(int[] nums){
+
+        int maior = 0;
+
+        for(int num : nums){
+            if (num > maior) {
+                maior = num;
             }
         }
+        return maior;
+    }
+    public int encontrarMenorValor(int[] nums){
+            int menor = nums[0];
+            
+            for(int num : nums){
+                if (num < menor){
+                menor = num;
+            } 
+        }   
+        return menor;
+    }
+    public int calcularMedia(int[] nums){
+            int soma = 0;
+            int contador = 0;
+            
+            
+            
+            for (int num : nums){
+                soma = soma + num;
+                contador = contador + 1;
+        }
+        int media = (soma / contador);
+        return media;
     }
 }
