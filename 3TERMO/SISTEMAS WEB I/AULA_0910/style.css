@@ -1,0 +1,150 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+    padding: 16px;
+    font-size: 20px;
+    border-width: 1px ;
+    border-bottom-style: solid;
+    background-color: white;
+}
+
+.header .logo {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    transition: 400ms;
+}
+
+.menu > ul > li > a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+}
+
+/* Container e Layout Principal */
+.container {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.container > aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 32px;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+.container > aside > nav > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: start;
+    width: 100%;
+}
+
+.container > aside > nav > ul > li {
+    width: 100%;
+    border-radius: 8px;
+    transition: 400ms;
+    padding: 8px;
+}
+
+.container > aside > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    width: 100%;
+}   
+
+.container > aside > nav > ul > li:hover {
+    background-color: blue;
+}
+
+.container > aside > nav > ul > li > a:hover{
+    color: white
+}
+
+/* Conteúdo Principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 10px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-content > section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content > section > h2 {
+    text-align: start;
+}
+
+.main-content > section > .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.main-content > section > .grid > .card {
+    padding: 16px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Rodapé */
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0; /* Espaçamento para dar altura ao footer */
+}
