@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+
+    }
+    .navbar{
+      display: flex;
+      padding: 16px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .container-list{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+    }
+
+    .container-list > li > a{
+      text-decoration: none;
+      border: 1px solid lightgray;
+      color: black;
+      padding: 16px;
+      border-radius: 4px;
+      transition: 400ms;
+
+    }
+
+    .container-list > li > a:hover{
+      background-color: lightblue;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="container-list">
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.chatgpt.com">Chat GPT</a></li>
+      <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+
+    </ul>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .geral{
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .div1 {
+      box-sizing: border-box;
+      padding: 20px;
+      width: 300px;
+      height: 200px;
+      border: 5px solid black;
+    }
+
+    .div2 {
+      box-sizing: content-box;
+      padding: 20px;
+      width: 300px;
+      height: 200px;
+      border: 5px solid black;
+    }
+  </style>
+</head>
+<body >
+
+  <div class="geral">
+    <div class="div1">
+      considera a div por inteiro (border, padding e content)
+    </div>
+  
+    <div class="div2">
+      toda width e height que colocar na content-box, vai direto pro "content", então no final soma o valor do padding e border, ficando maior
+    </div>
+  
+  </div>
+
+</body>
+</html>
