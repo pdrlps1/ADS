@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar > ul{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto;
+            text-decoration: none;
+            list-style: none;
+            gap: 16px;
+        }
+
+        .navbar > ul > li{
+            text-align: center;
+            border: 1px solid black;
+            padding: 16px;
+        }
+
+        .navbar > ul > .link-1{
+            grid-column: span 2;
+        }
+
+        
+        .navbar > ul > .link-5{
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="link-1">Link 1</li>
+            <li class="link-2">Link 2</li>
+            <li class="link-3">Link 3</li>
+            <li class="link-4">Link 4</li>
+            <li class="link-5">Link 5</li>
+        </ul>
+    </nav>
+</body>
+</html>

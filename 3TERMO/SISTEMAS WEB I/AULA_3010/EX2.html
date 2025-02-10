@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Grid padrão para telas maiores */
+        .container-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        /* Ajuste para telas médias */
+        @media (max-width: 1024px) {
+            .container-grid {
+                grid-template-columns: auto auto;
+            }
+        }
+
+        /* Ajuste para telas pequenas */
+        @media (max-width: 600px) {
+            .container-grid {
+                grid-template-columns: auto;
+            }
+        }
+
+        .container-grid > div > img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-grid">
+        <div class="image-1"><img src="premium_photo-1666900440561-94dcb6865554.avif" alt="Image 1"></div>
+        <div class="image-2"><img src="photo-1500462918059-b1a0cb512f1d.avif" alt="Image 2"></div>
+        <div class="image-3"><img src="LJIZlzHgQ7WPSh5KVTCB_Typewriter.avif" alt="Image 3"></div>
+    </div>
+</body>
+</html>

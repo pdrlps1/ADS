@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body > div{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        body > div > div{
+            border: 1px solid black;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .header{
+            grid-column: span 3;
+        }
+
+        .sidebar{
+            min-height: 70svh;
+        }
+
+        .content{
+            grid-column: span 2;
+            min-height: 70svh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            cabeçalho
+        </div>
+    
+        <div class="sidebar">
+            sidebar
+        </div>
+    
+        <div class="content">
+            content
+        </div>
+    </div>
+</body>
+</html>
