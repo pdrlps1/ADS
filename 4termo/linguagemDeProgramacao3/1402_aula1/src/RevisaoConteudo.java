@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class RevisaoConteudo {
@@ -40,13 +38,13 @@ public class RevisaoConteudo {
             System.out.println("Divisao nova: " + String.format("%.2f", div2));
         } else {
             System.out.println("Segundo número não pode ser zero e nem negativo");
-        };
+        }
 
         int i=0;
 
         for (i = 0; i <= 10; i++){
             System.out.println(i);
-        };
+        }
 
         do {
             System.out.println(i);
@@ -57,6 +55,6 @@ public class RevisaoConteudo {
         while (j <= 10){
             System.out.println(j);
             j++;
-        };
-    };
+        }
+    }
 }
