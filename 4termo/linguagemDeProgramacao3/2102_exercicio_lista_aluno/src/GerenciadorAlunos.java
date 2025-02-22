@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class GerenciadorAlunos {
     private final ArrayList<Aluno> listaAlunos;
@@ -20,6 +21,20 @@ public class GerenciadorAlunos {
             }
         }
         System.out.println("Aluno não encontrado: " + nome);
+    }
+
+    public void removerAluno (String nome){
+        Iterator<Aluno> iterator = listaAlunos.iterator();
+
+        while (iterator.hasNext()){
+            Aluno aluno = iterator.next();
+
+            if (aluno.getNome().equalsIgnoreCase(nome)){
+                iterator.remove();
+                System.out.println("Aluno " + nome + " Removido");
+                return;
+            }
+        }
     }
 
     public void exibirListaAlunos(){
