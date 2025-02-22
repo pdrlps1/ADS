@@ -10,6 +10,10 @@ public class Main {
         gerenciadorAlunos.adicionarNotaAluno("Ciclano", 10);
         gerenciadorAlunos.adicionarNotaAluno("Ciclano", 6);
 
+        gerenciadorAlunos.adicionarAluno("Beltrano", 15);
+
         gerenciadorAlunos.exibirListaAlunos();
+
+        gerenciadorAlunos.removerAluno("Beltrano");
     }
 }
