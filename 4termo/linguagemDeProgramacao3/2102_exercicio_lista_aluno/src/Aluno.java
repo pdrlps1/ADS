@@ -21,7 +21,11 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Aluno (String nome, int idade){
+    public long[] getNotas() {
+        return notas;
+    }
+
+    public Aluno (String nome, int idade, double[] notas){
         this.nome = nome;
         this.idade = idade;
         this.notas = new ArrayList<>();
