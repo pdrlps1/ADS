@@ -21,7 +21,7 @@ public class selectData {
             while(result.next()){
                 int id = result.getInt("id");
                 String name = result.getString("nome");
-                String ra = result.getString("ra")
+                String ra = result.getString("ra");
                 System.out.println("id: " + id);
                 System.out.println("nome: " + name);
                 System.out.println("ra: " + ra);
