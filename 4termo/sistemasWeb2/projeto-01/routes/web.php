@@ -1,42 +1,15 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ReminderController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Reminder;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-// Route::get('/teste', function (){
-//     return view('teste');
+// Route::get('/', function () {
+//     return view('welcome');
 // });
 
-Route::get('/saudacao', function () {
-    return "Olá, seja bem-vindo!";
-});
+Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+// ao acessar o meu controller pela rota / com o método GET, ele entra direto no método index()
 
-Route::get('/user/{id}', function ($id) {
-    return "ID do usuário: " . $id;
-});
-
-Route::get('/soma/{n1}/{n2}', function ($n1, $n2) {
-    $soma = $n1 + $n2;
-
-    return "Soma: " . $soma;
-});
-
-Route::get('/reminder/{title}/{description}', function ($title, $description) {
-    $date = now();
-
-    try {
-        Reminder::create([
-            'title' => $title,
-            'description' => $description,
-            'reminder_at' => $date
-        ]);
-
-        return "Lembrete criado!";
-    } catch (Error) {
-        return "Falha na criação de um lembrete!";
-    };
-});
+Route::resource('reminders', ReminderController::class);

@@ -1,0 +1,2 @@
+2 - Erro de treinamento é o erro obtido com as variáveis de treinamento de um conjunto de entradas, já o erro de generalização é o erro obtido quando se insere variáveis de teste no conjunto.
+O erro de treinamento, dependendo da quantidade de variáveis treinadas será com tendência a ser muito baixo, mas o erro real do neurônio se dará quando inseridas variáveis desconhecidas pelo modelo, ou seja, testará a precisão do modelo treinado para conseguir prever as variáveis de saída.
