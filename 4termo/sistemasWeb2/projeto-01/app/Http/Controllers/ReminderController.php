@@ -28,7 +28,29 @@ class ReminderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //validar os dados
+        $data = $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'nullable|string|max:2000',
+            'reminder_at' => 'required|date_format:Y-m-d\TH:i',
+            'done' => 'required|boolean'
+        ], [
+            'title.required' => 'O título é obrigatório',
+            'title.string' => 'O título deve ser uma sequecia de caracteres',
+            'title.max' => 'O título deve possuir no máximo 255 caracteres',
+            'description.string' => 'A descrição deve ser uma sequecia de caracteres',
+            'description.max' => 'A descrição deve possuir no máximo 2000 caracteres',
+            'reminder_at.required' => 'A data e hora do lembrete são obrigatórios',
+            'reminder_at.date_format' => 'A data e hora devem estar no formato AAAA-MM-DD Hh:mm:ss',
+            'done.required' => 'O campo de feito é obrigatório',
+            'done.boolean' => 'O campo de feito deve ser verdadeiro ou falso'
+        ]);
+
+        // cadastrar no banco
+        Reminder::create($data);
+
+        // redireciona em caso de sucesso
+        return redirect()->route('reminders.create')->with('success', 'Lembrete criado com sucesso');
     }
 
     /**
