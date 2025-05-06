@@ -8,11 +8,15 @@ use Illuminate\Http\Request;
 class ReminderController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Exibe uma lista de todos os recursos.
      */
     public function index()
     {
-        //
+        // $reminders = Reminder::all();
+        //busca os lembretes com o método Paginate
+        $reminders = Reminder::orderBy('reminder_at', 'desc')->paginate(2);
+
+        return view('app.reminders.index', compact('reminders'));
     }
 
     /**
