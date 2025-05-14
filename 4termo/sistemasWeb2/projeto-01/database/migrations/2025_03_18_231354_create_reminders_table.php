@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string(column: 'title');
             $table->text(column: 'description')->nullable();
-            $table->timestamp(column: 'reminder_at');
+            $table->dateTime(column: 'reminder_at');
             $table->boolean(column: 'done')->default(false);
             $table->timestamps();
         });
